@@ -1,0 +1,113 @@
+/* src/Login.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #4c8dd6, #a36de0);
+    margin: 0;
+}
+
+.login-container {
+    width: 700px;
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.login-box {
+    display: flex;
+    width: 100%;
+}
+
+.login-left {
+    flex: 1;
+    padding: 20px;
+    color: white;
+    background: #54a0ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.login-left h1 {
+    font-size: 2.2em;
+}
+
+.login-left p {
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.login-right {
+    flex: 1.2;
+    padding: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.login-right h2 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.login-right p {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.login-right input {
+    width: 80%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-right button {
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: #54a0ff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.login-right button:hover {
+    background-color: #357abd;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+}
+
+.extra-links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    color: #777;
+}
+
+.extra-links span {
+    color: #54a0ff;
+    cursor: pointer;
+}
